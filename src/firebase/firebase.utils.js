@@ -12,7 +12,7 @@ const config={
     storageBucket: "crwn-clothing-76379.appspot.com",
     messagingSenderId: "590645803461",
     appId: "1:590645803461:web:b4fb1b7b685a2cdfeb73ac",
-    measurementId: "${config.measurementId}"
+    measurementId: `${config.measurementId}`
 }
 
 firebase.initializeApp(config);
